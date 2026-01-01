@@ -1,10 +1,10 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit;
+namespace Iroge\SolanaPhpSdk\Tests\Unit;
 
-use Attestto\SolanaPhpSdk\Keypair;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Keypair;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 
 class KeypairTest extends TestCase
 {

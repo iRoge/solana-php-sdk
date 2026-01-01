@@ -1,11 +1,11 @@
 <?php
 
-namespace Attestto\temp\SNS;
+namespace Iroge\temp\SNS;
 
-use Attestto\SolanaPhpSdk\Borsh\Borsh;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\TransactionInstruction;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Borsh\Borsh;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\TransactionInstruction;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 
 
 class InstructionBurn {

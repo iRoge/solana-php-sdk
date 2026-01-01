@@ -1,9 +1,9 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit;
+namespace Iroge\SolanaPhpSdk\Tests\Unit;
 
-use Attestto\SolanaPhpSdk\Tests\TestCase;
-use Attestto\SolanaPhpSdk\Util\ShortVec;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\Util\ShortVec;
 
 class ShortVecTest extends TestCase
 {

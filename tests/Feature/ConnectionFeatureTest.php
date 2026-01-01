@@ -1,21 +1,21 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Feature;
+namespace Iroge\SolanaPhpSdk\Tests\Feature;
 
-use Attestto\SolanaPhpSdk\Connection;
-use Attestto\SolanaPhpSdk\Exceptions\AccountNotFoundException;
-use Attestto\SolanaPhpSdk\Exceptions\GenericException;
-use Attestto\SolanaPhpSdk\Exceptions\InputValidationException;
-use Attestto\SolanaPhpSdk\Exceptions\InvalidIdResponseException;
-use Attestto\SolanaPhpSdk\Exceptions\MethodNotFoundException;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
-use Attestto\SolanaPhpSdk\Transaction;
-use Attestto\SolanaPhpSdk\Keypair;
-use Attestto\SolanaPhpSdk\Programs\SystemProgram;
-use Attestto\SolanaPhpSdk\Util\Buffer;
-use Attestto\SolanaPhpSdk\Util\Commitment;
+use Iroge\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\Exceptions\AccountNotFoundException;
+use Iroge\SolanaPhpSdk\Exceptions\GenericException;
+use Iroge\SolanaPhpSdk\Exceptions\InputValidationException;
+use Iroge\SolanaPhpSdk\Exceptions\InvalidIdResponseException;
+use Iroge\SolanaPhpSdk\Exceptions\MethodNotFoundException;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Transaction;
+use Iroge\SolanaPhpSdk\Keypair;
+use Iroge\SolanaPhpSdk\Programs\SystemProgram;
+use Iroge\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Util\Commitment;
 use PHPUnit\Framework\MockObject\Exception;
 use Psr\Http\Client\ClientExceptionInterface;
 use Random\RandomException;

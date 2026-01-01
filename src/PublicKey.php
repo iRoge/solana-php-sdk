@@ -1,14 +1,14 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk;
+namespace Iroge\SolanaPhpSdk;
 
 use ParagonIE_Sodium_Compat;
 use RangeException;
 use StephenHill\Base58;
-use Attestto\SolanaPhpSdk\Exceptions\BaseSolanaPhpSdkException;
-use Attestto\SolanaPhpSdk\Exceptions\InputValidationException;
-use Attestto\SolanaPhpSdk\Util\Buffer;
-use Attestto\SolanaPhpSdk\Util\HasPublicKey;
+use Iroge\SolanaPhpSdk\Exceptions\BaseSolanaPhpSdkException;
+use Iroge\SolanaPhpSdk\Exceptions\InputValidationException;
+use Iroge\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Util\HasPublicKey;
 
 class PublicKey implements HasPublicKey
 {

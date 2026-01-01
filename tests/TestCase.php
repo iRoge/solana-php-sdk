@@ -1,8 +1,8 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests;
+namespace Iroge\SolanaPhpSdk\Tests;
 
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;

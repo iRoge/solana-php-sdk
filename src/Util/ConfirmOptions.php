@@ -1,6 +1,6 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Util;
+namespace Iroge\SolanaPhpSdk\Util;
 
 /**
  * @property bool $skipPreflight

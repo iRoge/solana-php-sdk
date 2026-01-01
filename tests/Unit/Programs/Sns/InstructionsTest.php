@@ -1,13 +1,13 @@
 <?php
-namespace Attestto\SolanaPhpSdk\Tests\Unit\Programs\SNS;
+namespace Iroge\SolanaPhpSdk\Tests\Unit\Programs\SNS;
 
-use Attestto\SolanaPhpSdk\Exceptions\InputValidationException;
-use Attestto\SolanaPhpSdk\Programs\SnsProgram;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\TransactionInstruction;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Exceptions\InputValidationException;
+use Iroge\SolanaPhpSdk\Programs\SnsProgram;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\TransactionInstruction;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 use PHPUnit\Framework\MockObject\Exception;
 
 class InstructionsTest extends TestCase

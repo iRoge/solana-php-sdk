@@ -1,15 +1,15 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Accounts;
+namespace Iroge\SolanaPhpSdk\Accounts;
 
-use Attestto\SolanaPhpSdk\Accounts\Did\VerificationMethodStruct;
-use Attestto\SolanaPhpSdk\Accounts\Did\ServiceStruct;
-use Attestto\SolanaPhpSdk\Borsh\Borsh;
-use Attestto\SolanaPhpSdk\Borsh\BorshDeserializable;
-use Attestto\SolanaPhpSdk\Connection;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\Exceptions\SNSError;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Accounts\Did\VerificationMethodStruct;
+use Iroge\SolanaPhpSdk\Accounts\Did\ServiceStruct;
+use Iroge\SolanaPhpSdk\Borsh\Borsh;
+use Iroge\SolanaPhpSdk\Borsh\BorshDeserializable;
+use Iroge\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Exceptions\SNSError;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 
 
 class NtfRecordAccount

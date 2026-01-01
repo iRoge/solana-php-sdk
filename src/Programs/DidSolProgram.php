@@ -1,13 +1,13 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs;
+namespace Iroge\SolanaPhpSdk\Programs;
 
-use Attestto\SolanaPhpSdk\Exceptions\BaseSolanaPhpSdkException;
-use Attestto\SolanaPhpSdk\Program;
-use Attestto\SolanaPhpSdk\Accounts\DidData;
-use Attestto\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Exceptions\BaseSolanaPhpSdkException;
+use Iroge\SolanaPhpSdk\Program;
+use Iroge\SolanaPhpSdk\Accounts\DidData;
+use Iroge\SolanaPhpSdk\PublicKey;
 use StephenHill\Base58;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
 
 /**
  * Class DidSolProgram - Work In Progress
@@ -15,7 +15,7 @@ use Attestto\SolanaPhpSdk\SolanaRpcClient;
  * This class represents a program for interacting with the Solana blockchain using the DID (Decentralized Identifier) protocol.
  * It provides methods for creating and managing DID accounts, signing and verifying messages, and other related operations.
  * @version 1.0
- * @package Attestto\SolanaPhpSdk\
+ * @package Iroge\SolanaPhpSdk\
  * @license MIT
  * @author Eduardo Chongkan
  * @link https://chongkan.com

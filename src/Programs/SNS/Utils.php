@@ -1,15 +1,15 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs\SNS;
+namespace Iroge\SolanaPhpSdk\Programs\SNS;
 
-use Attestto\SolanaPhpSdk\Exceptions\AccountNotFoundException;
-use Attestto\SolanaPhpSdk\Programs\SNS\State\NameRegistryStateAccount;
-use Attestto\SolanaPhpSdk\Connection;
-use Attestto\SolanaPhpSdk\Exceptions\InputValidationException;
-use Attestto\SolanaPhpSdk\Exceptions\SNSError;
+use Iroge\SolanaPhpSdk\Exceptions\AccountNotFoundException;
+use Iroge\SolanaPhpSdk\Programs\SNS\State\NameRegistryStateAccount;
+use Iroge\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\Exceptions\InputValidationException;
+use Iroge\SolanaPhpSdk\Exceptions\SNSError;
 
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 
 trait Utils
 {

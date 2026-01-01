@@ -1,9 +1,9 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs\SplToken\State;
+namespace Iroge\SolanaPhpSdk\Programs\SplToken\State;
 
-use Attestto\SolanaPhpSdk\Borsh\Borsh;
-use Attestto\SolanaPhpSdk\Borsh\BorshObject;
+use Iroge\SolanaPhpSdk\Borsh\Borsh;
+use Iroge\SolanaPhpSdk\Borsh\BorshObject;
 
 /**
  * Class Mint
@@ -11,7 +11,7 @@ use Attestto\SolanaPhpSdk\Borsh\BorshObject;
  * This class represents a Decentralized Identifier (DID) account.
  * It provides methods for creating and managing DID accounts, signing and verifying messages, and other related operations.
  * @version 1.0
- * @package Attestto\SolanaPhpSdk\Accounts
+ * @package Iroge\SolanaPhpSdk\Accounts
  * @license MIT
  * @author Eduardo Chongkan
  * @link https://chongkan.com

@@ -1,8 +1,8 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Util;
+namespace Iroge\SolanaPhpSdk\Util;
 
-use Attestto\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\PublicKey;
 
 class AccountMeta implements HasPublicKey
 {

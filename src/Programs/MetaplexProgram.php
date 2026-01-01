@@ -1,8 +1,8 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs;
+namespace Iroge\SolanaPhpSdk\Programs;
 
-use Attestto\SolanaPhpSdk\Program;
+use Iroge\SolanaPhpSdk\Program;
 
 class MetaplexProgram extends Program
 {

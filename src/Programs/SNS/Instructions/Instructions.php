@@ -1,14 +1,14 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs\SNS\Instructions;
+namespace Iroge\SolanaPhpSdk\Programs\SNS\Instructions;
 
 
 
-use Attestto\SolanaPhpSdk\Exceptions\InputValidationException;
-use Attestto\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Exceptions\InputValidationException;
+use Iroge\SolanaPhpSdk\PublicKey;
 
-use Attestto\SolanaPhpSdk\TransactionInstruction;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\TransactionInstruction;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 
 trait Instructions {
 

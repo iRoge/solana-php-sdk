@@ -1,13 +1,13 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs\SplToken\Instructions;
+namespace Iroge\SolanaPhpSdk\Programs\SplToken\Instructions;
 
-use Attestto\SolanaPhpSdk\Exceptions\InputValidationException;
-use Attestto\SolanaPhpSdk\Programs\SystemProgram;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\TransactionInstruction;
-use Attestto\SolanaPhpSdk\Util\AccountMeta;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Exceptions\InputValidationException;
+use Iroge\SolanaPhpSdk\Programs\SystemProgram;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\TransactionInstruction;
+use Iroge\SolanaPhpSdk\Util\AccountMeta;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 
 trait SPLTokenInstructions
 {

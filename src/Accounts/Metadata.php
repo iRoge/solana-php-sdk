@@ -1,10 +1,10 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Accounts;
+namespace Iroge\SolanaPhpSdk\Accounts;
 
-use Attestto\SolanaPhpSdk\Borsh\Borsh;
-use Attestto\SolanaPhpSdk\Borsh\BorshDeserializable;
-use Attestto\SolanaPhpSdk\Borsh\BorshObject;
+use Iroge\SolanaPhpSdk\Borsh\Borsh;
+use Iroge\SolanaPhpSdk\Borsh\BorshDeserializable;
+use Iroge\SolanaPhpSdk\Borsh\BorshObject;
 
 class Metadata
 {

@@ -1,6 +1,6 @@
 # Connection Class
 
-The `Connection` class is part of the `Attestto\SolanaPhpSdk` namespace and extends the `Program` class. It provides methods to interact with the Solana network.
+The `Connection` class is part of the `Iroge\SolanaPhpSdk` namespace and extends the `Program` class. It provides methods to interact with the Solana network.
 
 ## Methods
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Accounts;
+namespace Iroge\SolanaPhpSdk\Accounts;
 
-use Attestto\SolanaPhpSdk\Accounts\Did\VerificationMethodStruct;
-use Attestto\SolanaPhpSdk\Accounts\Did\ServiceStruct;
-use Attestto\SolanaPhpSdk\Borsh\Borsh;
-use Attestto\SolanaPhpSdk\Borsh\BorshDeserializable;
-use Attestto\SolanaPhpSdk\Borsh\BorshObject;
+use Iroge\SolanaPhpSdk\Accounts\Did\VerificationMethodStruct;
+use Iroge\SolanaPhpSdk\Accounts\Did\ServiceStruct;
+use Iroge\SolanaPhpSdk\Borsh\Borsh;
+use Iroge\SolanaPhpSdk\Borsh\BorshDeserializable;
+use Iroge\SolanaPhpSdk\Borsh\BorshObject;
 
 /**
  * Class DidData
@@ -14,7 +14,7 @@ use Attestto\SolanaPhpSdk\Borsh\BorshObject;
  * This class represents a Decentralized Identifier (DID) account.
  * It provides methods for creating and managing DID accounts, signing and verifying messages, and other related operations.
  * @version 1.0
- * @package Attestto\SolanaPhpSdk\Accounts
+ * @package Iroge\SolanaPhpSdk\Accounts
  * @license MIT
  * @author Eduardo Chongkan
  * @link https://chongkan.com

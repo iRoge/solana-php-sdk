@@ -1,8 +1,8 @@
 # Solana PHP SDK
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/attestto/solana-php-sdk.svg?style=flat-square)](https://packagist.org/packages/attestto/solana-php-sdk)
-[![GitHub Tests Action Status](https://github.com/Attestto-com/solana-php-sdk/actions/workflows/run-tests.yml/badge.svg?branch=master)](https://github.com/Attestto-com/solana-php-sdk/actions/workflows/run-tests.yml)
-[![Coverage (CodeCov)](https://codecov.io/github/Attestto-com/solana-php-sdk/graph/badge.svg?token=M12LECZ9QE)](https://codecov.io/github/Attestto-com/solana-php-sdk)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Iroge/solana-php-sdk.svg?style=flat-square)](https://packagist.org/packages/Iroge/solana-php-sdk)
+[![GitHub Tests Action Status](https://github.com/Iroge/solana-php-sdk/actions/workflows/run-tests.yml/badge.svg?branch=master)](https://github.com/Iroge/solana-php-sdk/actions/workflows/run-tests.yml)
+[![Coverage (CodeCov)](https://codecov.io/github/Iroge/solana-php-sdk/graph/badge.svg?token=M12LECZ9QE)](https://codecov.io/github/Iroge/solana-php-sdk)
 
 ```js
     ____  __  ______     _____ ____  __    ___    _   _____       _____ ____  __ __
@@ -63,8 +63,8 @@ docker run -it solana-php-sdk /bin/bash
 You can use the `Connection` class for convenient access to API methods. Some are defined in the code:
 
 ```php
-use Attestto\SolanaPhpSdk\Connection;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
 
 // Using a defined method
 $sdk = new Connection(new SolanaRpcClient(SolanaRpcClient::MAINNET_ENDPOINT));
@@ -79,7 +79,7 @@ For all the possible methods, see the [API documentation](https://docs.solana.co
 The `Connection` class is just a light convenience layer on top of the RPC client. You can, if you want, use the client directly, which allows you to work with the full `Response` object:
 
 ```php
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
 
 $client = new SolanaRpcClient(SolanaRpcClient::MAINNET_ENDPOINT);
 $accountInfoResponse = $client->call('getAccountInfo', ['4fYNw3dojWmQ4dXtSGE9epjRGy9pFSx62YypT7avPYvA']);
@@ -151,9 +151,9 @@ class DidData
 
 To get a better understanding on the implementation and usage, please refer to the following references: 
 
-- [PHP Borsh Test](https://github.com/Attestto-com/solana-php-sdk/blob/master/tests/Unit/BorshTest.php)
-- [PHP Borsh Class](https://github.com/Attestto-com/solana-php-sdk/blob/master/src/Borsh/Borsh.php)
-- [PHP Borsh Trait](https://github.com/Attestto-com/solana-php-sdk/blob/master/src/Borsh/BorshObject.php)
+- [PHP Borsh Test](https://github.com/Iroge/solana-php-sdk/blob/master/tests/Unit/BorshTest.php)
+- [PHP Borsh Class](https://github.com/Iroge/solana-php-sdk/blob/master/src/Borsh/Borsh.php)
+- [PHP Borsh Trait](https://github.com/Iroge/solana-php-sdk/blob/master/src/Borsh/BorshObject.php)
 
 example usage _**(This will be improved, WIP)**_: 
 ```php
@@ -184,7 +184,7 @@ example usage _**(This will be improved, WIP)**_:
 
 ## Notes:
 
-- Most of the Magic is done in the [BorshDesealizable.php](https://github.com/Attestto-com/solana-php-sdk/blob/master/src/Borsh/BorshDeserializable.php) Trait. 
+- Most of the Magic is done in the [BorshDesealizable.php](https://github.com/Iroge/solana-php-sdk/blob/master/src/Borsh/BorshDeserializable.php) Trait. 
 - This project is in alpha, the code to generate instructions is still being worked on `$instruction = SystemProgram::abc()`
 - This project is maintained by a single dev, so any feedback, ideas, comments are appreciated. 
 

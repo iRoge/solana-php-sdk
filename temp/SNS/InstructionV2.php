@@ -1,12 +1,12 @@
 <?php
 
-namespace Attestto\temp\SNS;
+namespace Iroge\temp\SNS;
 
-use Attestto\SolanaPhpSdk\Buffer;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\SystemProgram;
-use Attestto\SolanaPhpSdk\TokenProgramId;
-use Attestto\SolanaPhpSdk\TransactionInstruction;
+use Iroge\SolanaPhpSdk\Buffer;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\SystemProgram;
+use Iroge\SolanaPhpSdk\TokenProgramId;
+use Iroge\SolanaPhpSdk\TransactionInstruction;
 
 class CreateV2Instruction {
     public $tag;

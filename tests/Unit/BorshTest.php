@@ -1,10 +1,10 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit;
+namespace Iroge\SolanaPhpSdk\Tests\Unit;
 
-use Attestto\SolanaPhpSdk\Borsh\Borsh;
-use Attestto\SolanaPhpSdk\Borsh\BorshObject;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\Borsh\Borsh;
+use Iroge\SolanaPhpSdk\Borsh\BorshObject;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
 
 class TestObject {
     use BorshObject;

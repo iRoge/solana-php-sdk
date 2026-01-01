@@ -1,10 +1,10 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit;
+namespace Iroge\SolanaPhpSdk\Tests\Unit;
 
-use Attestto\SolanaPhpSdk\Keypair;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\Keypair;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
 
 class PublicKeyTest extends TestCase
 {

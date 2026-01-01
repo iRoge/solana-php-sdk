@@ -1,11 +1,11 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit;
+namespace Iroge\SolanaPhpSdk\Tests\Unit;
 
-use Attestto\SolanaPhpSdk\Account;
-use Attestto\SolanaPhpSdk\Keypair;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
-use Attestto\SolanaPhpSdk\Accounts\Metadata;
+use Iroge\SolanaPhpSdk\Account;
+use Iroge\SolanaPhpSdk\Keypair;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\Accounts\Metadata;
 
 class MetadataTest extends TestCase
 {

@@ -1,9 +1,9 @@
 {
-    "name": "attestto/solana-php-sdk",
-    "version": "0.6.1",
+    "name": "iroge/solana-php-sdk",
+    "version": "1.0.0",
     "description": "Solana PHP SDK for interacting with the Solana blockchain",
     "keywords": [
-        "attestto",
+        "Iroge",
         "solana-php-sdk",
         "blockchain",
         "solana",
@@ -11,31 +11,19 @@
         "sdk",
         "php"
     ],
-    "homepage": "https://github.com/Attestto-com/solana-php-sdk",
+    "homepage": "https://github.com/iroge/solana-php-sdk",
     "license": "MIT",
     "authors": [
         {
-            "name": "Matt Stauffer",
-            "homepage": "https://packagist.org/packages/tightenco/solana-php-sdk",
-            "role": "Original Creator Developer [Legacy] "
-        },
-        {
-            "name": "Zach Vander Velden",
-            "homepage": "https://github.com/exzachlyvv",
-            "role": "Developer - Metadata [Legacy]"
-        },
-        {
-            "name": "Eduardo Chongkan",
-            "email": "eduardo@attestto.com",
-            "homepage": "https://github.com/chongkan",
-            "role": "Developer - [Current Maintainer]"
+            "name": "iRoge",
+            "homepage": "https://packagist.org/packages/iroge/solana-php-sdk"
         }
     ],
     "require": {
         "php": "~8.2",
         "ext-sodium": "*",
         "guzzlehttp/guzzle": "^7.3",
-        "paragonie/sodium_compat": "^1.17",
+        "paragonie/sodium_compat": "^2.5",
         "stephenhill/base58": "^1.1",
         "vlucas/phpdotenv": "^5.6"
     },
@@ -49,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Attestto\\SolanaPhpSdk\\": "src"
+            "Iroge\\SolanaPhpSdk\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Attestto\\SolanaPhpSdk\\Tests\\": "tests"
+            "Iroge\\SolanaPhpSdk\\Tests\\": "tests"
         }
     },
     "scripts": {

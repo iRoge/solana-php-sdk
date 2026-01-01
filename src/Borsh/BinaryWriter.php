@@ -1,9 +1,9 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Borsh;
+namespace Iroge\SolanaPhpSdk\Borsh;
 
-use Attestto\SolanaPhpSdk\Exceptions\TodoException;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Exceptions\TodoException;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 use Closure;
 
 class BinaryWriter

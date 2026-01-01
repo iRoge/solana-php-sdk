@@ -1,13 +1,13 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs\SplToken\State;
+namespace Iroge\SolanaPhpSdk\Programs\SplToken\State;
 
-use Attestto\SolanaPhpSdk\Borsh\Borsh;
-use Attestto\SolanaPhpSdk\Borsh\BorshObject;
-use Attestto\SolanaPhpSdk\Connection;
-use Attestto\SolanaPhpSdk\Exceptions\AccountNotFoundException;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\Util\Commitment;
+use Iroge\SolanaPhpSdk\Borsh\Borsh;
+use Iroge\SolanaPhpSdk\Borsh\BorshObject;
+use Iroge\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\Exceptions\AccountNotFoundException;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Util\Commitment;
 
 /**
  * @property mixed|null $mint

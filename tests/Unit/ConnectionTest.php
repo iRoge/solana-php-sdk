@@ -1,15 +1,15 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit;
+namespace Iroge\SolanaPhpSdk\Tests\Unit;
 
-use Attestto\SolanaPhpSdk\Connection;
-use Attestto\SolanaPhpSdk\Exceptions\AccountNotFoundException;
-use Attestto\SolanaPhpSdk\Exceptions\GenericException;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
-use Attestto\SolanaPhpSdk\Transaction;
-use Attestto\SolanaPhpSdk\Keypair;
-use Attestto\SolanaPhpSdk\Programs\SystemProgram;
+use Iroge\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\Exceptions\AccountNotFoundException;
+use Iroge\SolanaPhpSdk\Exceptions\GenericException;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Transaction;
+use Iroge\SolanaPhpSdk\Keypair;
+use Iroge\SolanaPhpSdk\Programs\SystemProgram;
 use PHPUnit\Framework\MockObject\Exception;
 use SodiumException;
 

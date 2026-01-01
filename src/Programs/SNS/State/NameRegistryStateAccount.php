@@ -1,18 +1,18 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs\SNS\State;
+namespace Iroge\SolanaPhpSdk\Programs\SNS\State;
 
-use Attestto\SolanaPhpSdk\Accounts\Did\VerificationMethodStruct;
-use Attestto\SolanaPhpSdk\Accounts\Did\ServiceStruct;
-use Attestto\SolanaPhpSdk\Accounts\DidData;
-use Attestto\SolanaPhpSdk\Borsh\Borsh;
-use Attestto\SolanaPhpSdk\Borsh\BorshDeserializable;
-use Attestto\SolanaPhpSdk\Borsh\BorshObject;
-use Attestto\SolanaPhpSdk\Connection;
-use Attestto\SolanaPhpSdk\Exceptions\AccountNotFoundException;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\Exceptions\SNSError;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Accounts\Did\VerificationMethodStruct;
+use Iroge\SolanaPhpSdk\Accounts\Did\ServiceStruct;
+use Iroge\SolanaPhpSdk\Accounts\DidData;
+use Iroge\SolanaPhpSdk\Borsh\Borsh;
+use Iroge\SolanaPhpSdk\Borsh\BorshDeserializable;
+use Iroge\SolanaPhpSdk\Borsh\BorshObject;
+use Iroge\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\Exceptions\AccountNotFoundException;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Exceptions\SNSError;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 
 
 class NameRegistryStateAccount

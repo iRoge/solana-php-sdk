@@ -1,11 +1,11 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Util;
+namespace Iroge\SolanaPhpSdk\Util;
 
 use Countable;
-use Attestto\SolanaPhpSdk\Exceptions\InputValidationException;
-use Attestto\SolanaPhpSdk\Exceptions\TodoException;
-use Attestto\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Exceptions\InputValidationException;
+use Iroge\SolanaPhpSdk\Exceptions\TodoException;
+use Iroge\SolanaPhpSdk\PublicKey;
 use SplFixedArray;
 
 /**

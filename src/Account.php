@@ -1,10 +1,10 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk;
+namespace Iroge\SolanaPhpSdk;
 
-use Attestto\SolanaPhpSdk\Util\Buffer;
-use Attestto\SolanaPhpSdk\Util\HasPublicKey;
-use Attestto\SolanaPhpSdk\Util\HasSecretKey;
+use Iroge\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Util\HasPublicKey;
+use Iroge\SolanaPhpSdk\Util\HasSecretKey;
 
 class Account implements HasPublicKey, HasSecretKey
 {

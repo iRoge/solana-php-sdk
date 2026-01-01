@@ -1,18 +1,18 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit\Programs;
+namespace Iroge\SolanaPhpSdk\Tests\Unit\Programs;
 
-use Attestto\SolanaPhpSdk\Connection;
-use Attestto\SolanaPhpSdk\Exceptions\AccountNotFoundException;
-use Attestto\SolanaPhpSdk\Exceptions\GenericException;
-use Attestto\SolanaPhpSdk\Exceptions\InputValidationException;
-use Attestto\SolanaPhpSdk\Keypair;
-use Attestto\SolanaPhpSdk\Programs\SplToken\State\Account;
-use Attestto\SolanaPhpSdk\Programs\SplTokenProgram;
-use Attestto\SolanaPhpSdk\Programs\SystemProgram;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\Exceptions\AccountNotFoundException;
+use Iroge\SolanaPhpSdk\Exceptions\GenericException;
+use Iroge\SolanaPhpSdk\Exceptions\InputValidationException;
+use Iroge\SolanaPhpSdk\Keypair;
+use Iroge\SolanaPhpSdk\Programs\SplToken\State\Account;
+use Iroge\SolanaPhpSdk\Programs\SplTokenProgram;
+use Iroge\SolanaPhpSdk\Programs\SystemProgram;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
 use PHPUnit\Framework\Attributes\Test;
 
 

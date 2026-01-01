@@ -1,16 +1,16 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit\Programs\SNS;
+namespace Iroge\SolanaPhpSdk\Tests\Unit\Programs\SNS;
 
 
-use Attestto\SolanaPhpSdk\Connection;
-use Attestto\SolanaPhpSdk\Programs\SNS\State\NameRegistryStateAccount;
-use Attestto\SolanaPhpSdk\Programs\SNS\Utils;
-use Attestto\SolanaPhpSdk\Programs\SnsProgram;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\Programs\SNS\State\NameRegistryStateAccount;
+use Iroge\SolanaPhpSdk\Programs\SNS\Utils;
+use Iroge\SolanaPhpSdk\Programs\SnsProgram;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 
 class NameRegistryStateTest extends TestCase
 {

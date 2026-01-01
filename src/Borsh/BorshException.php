@@ -1,8 +1,8 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Borsh;
+namespace Iroge\SolanaPhpSdk\Borsh;
 
-use Attestto\SolanaPhpSdk\Exceptions\BaseSolanaPhpSdkException;
+use Iroge\SolanaPhpSdk\Exceptions\BaseSolanaPhpSdkException;
 
 class BorshException extends BaseSolanaPhpSdkException
 {

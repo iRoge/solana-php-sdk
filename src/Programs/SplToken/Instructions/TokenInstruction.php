@@ -1,6 +1,6 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs\SplToken\Instructions;
+namespace Iroge\SolanaPhpSdk\Programs\SplToken\Instructions;
 class TokenInstruction
 {
     const InitializeMint = 0;

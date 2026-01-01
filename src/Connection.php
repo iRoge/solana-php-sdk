@@ -1,19 +1,19 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk;
+namespace Iroge\SolanaPhpSdk;
 
-use Attestto\SolanaPhpSdk\Exceptions\AccountNotFoundException;
-use Attestto\SolanaPhpSdk\Exceptions\GenericException;
-use Attestto\SolanaPhpSdk\Exceptions\InvalidIdResponseException;
-use Attestto\SolanaPhpSdk\Exceptions\MethodNotFoundException;
-use Attestto\SolanaPhpSdk\Util\Commitment;
+use Iroge\SolanaPhpSdk\Exceptions\AccountNotFoundException;
+use Iroge\SolanaPhpSdk\Exceptions\GenericException;
+use Iroge\SolanaPhpSdk\Exceptions\InvalidIdResponseException;
+use Iroge\SolanaPhpSdk\Exceptions\MethodNotFoundException;
+use Iroge\SolanaPhpSdk\Util\Commitment;
 use Illuminate\Http\Client\Response;
 use Psr\Http\Client\ClientExceptionInterface;
 use SodiumException;
 
 /**
  * Class Connection
- * @package Attestto\SolanaPhpSdk
+ * @package Iroge\SolanaPhpSdk
  * https://solana-labs.github.io/solana-web3.js/v1.x/classes/Connection.html
  */
 class Connection extends Program

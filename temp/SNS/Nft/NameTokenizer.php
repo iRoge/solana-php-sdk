@@ -1,13 +1,13 @@
 <?php
 
-namespace Attestto\temp\SNS\Nft;
+namespace Iroge\temp\SNS\Nft;
 
-use Attestto\SolanaPhpSdk\Programs\SNS\Buffer;
-use Attestto\SolanaPhpSdk\Programs\SNS\Exception;
-use Attestto\SolanaPhpSdk\PublicKey;
-use function Attestto\SolanaPhpSdk\Programs\SNS\deserialize;
-use const Attestto\SolanaPhpSdk\Programs\SNS\MINT_PREFIX;
-use const Attestto\SolanaPhpSdk\Programs\SNS\NAME_TOKENIZER_ID;
+use Iroge\SolanaPhpSdk\Programs\SNS\Buffer;
+use Iroge\SolanaPhpSdk\Programs\SNS\Exception;
+use Iroge\SolanaPhpSdk\PublicKey;
+use function Iroge\SolanaPhpSdk\Programs\SNS\deserialize;
+use const Iroge\SolanaPhpSdk\Programs\SNS\MINT_PREFIX;
+use const Iroge\SolanaPhpSdk\Programs\SNS\NAME_TOKENIZER_ID;
 
 
 class NftRecord

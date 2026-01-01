@@ -1,6 +1,6 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Borsh;
+namespace Iroge\SolanaPhpSdk\Borsh;
 use ReflectionClass;
 
 trait BorshSerializable

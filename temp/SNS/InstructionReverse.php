@@ -1,11 +1,11 @@
 <?php
 
-namespace Attestto\temp\SNS;
+namespace Iroge\temp\SNS;
 
-use Attestto\SolanaPhpSdk\Borsh\Borsh;
-use Attestto\SolanaPhpSdk\Buffer;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\TransactionInstruction;
+use Iroge\SolanaPhpSdk\Borsh\Borsh;
+use Iroge\SolanaPhpSdk\Buffer;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\TransactionInstruction;
 
 class CreateReverseInstruction {
     public $tag;

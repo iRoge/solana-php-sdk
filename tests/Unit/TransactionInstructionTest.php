@@ -1,16 +1,16 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit;
+namespace Iroge\SolanaPhpSdk\Tests\Unit;
 
 use Illuminate\Support\Facades\Http;
-use Attestto\SolanaPhpSdk\Exceptions\GenericException;
-use Attestto\SolanaPhpSdk\Programs\SystemProgram;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
-use Attestto\SolanaPhpSdk\TransactionInstruction;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\Util\AccountMeta;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Exceptions\GenericException;
+use Iroge\SolanaPhpSdk\Programs\SystemProgram;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\TransactionInstruction;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Util\AccountMeta;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 
 
 class TransactionInstructionTest extends TestCase

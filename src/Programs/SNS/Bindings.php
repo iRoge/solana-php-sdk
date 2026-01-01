@@ -1,17 +1,17 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs\SNS;
+namespace Iroge\SolanaPhpSdk\Programs\SNS;
 
-use Attestto\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\Connection;
 
-use Attestto\SolanaPhpSdk\Exceptions\AccountNotFoundException;
-use Attestto\SolanaPhpSdk\Exceptions\SNSError;
-use Attestto\SolanaPhpSdk\Programs\SNS\State\NameRegistryStateAccount;
-use Attestto\SolanaPhpSdk\Programs\SNS\State\ReverseInstructionAccount;
-use Attestto\SolanaPhpSdk\Programs\SystemProgram;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\TransactionInstruction;
-use Attestto\SolanaPhpSdk\Util\Buffer;
+use Iroge\SolanaPhpSdk\Exceptions\AccountNotFoundException;
+use Iroge\SolanaPhpSdk\Exceptions\SNSError;
+use Iroge\SolanaPhpSdk\Programs\SNS\State\NameRegistryStateAccount;
+use Iroge\SolanaPhpSdk\Programs\SNS\State\ReverseInstructionAccount;
+use Iroge\SolanaPhpSdk\Programs\SystemProgram;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\TransactionInstruction;
+use Iroge\SolanaPhpSdk\Util\Buffer;
 use Exception;
 use function PHPUnit\Framework\isInstanceOf;
 

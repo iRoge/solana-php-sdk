@@ -1,16 +1,16 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit\Programs\SNS;
+namespace Iroge\SolanaPhpSdk\Tests\Unit\Programs\SNS;
 
 
-use Attestto\SolanaPhpSdk\Connection;
-use Attestto\SolanaPhpSdk\Exceptions\InputValidationException;
+use Iroge\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\Exceptions\InputValidationException;
 
-use Attestto\SolanaPhpSdk\Exceptions\SNSError;
-use Attestto\SolanaPhpSdk\Programs\SnsProgram;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Exceptions\SNSError;
+use Iroge\SolanaPhpSdk\Programs\SnsProgram;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
 use PHPUnit\Framework\MockObject\Exception;
 
 class DerivationTest extends TestCase

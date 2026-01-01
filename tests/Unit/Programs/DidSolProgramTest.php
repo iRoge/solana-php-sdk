@@ -1,9 +1,9 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit\Programs;
+namespace Iroge\SolanaPhpSdk\Tests\Unit\Programs;
 
-use Attestto\SolanaPhpSdk\Programs\DidSolProgram;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\Programs\DidSolProgram;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
 use PHPUnit\Framework\Attributes\Test;
 
 class DidSolProgramTest extends TestCase

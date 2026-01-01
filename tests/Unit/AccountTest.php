@@ -1,13 +1,13 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit;
+namespace Iroge\SolanaPhpSdk\Tests\Unit;
 
-use Attestto\SolanaPhpSdk\Account;
-use Attestto\SolanaPhpSdk\Keypair;
-use Attestto\SolanaPhpSdk\Programs\SplTokenProgram;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\Account;
+use Iroge\SolanaPhpSdk\Keypair;
+use Iroge\SolanaPhpSdk\Programs\SplTokenProgram;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
 use PHPUnit\Framework\Attributes\Test;
 
 class AccountTest extends TestCase

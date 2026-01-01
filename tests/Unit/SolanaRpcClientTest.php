@@ -1,12 +1,12 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit;
+namespace Iroge\SolanaPhpSdk\Tests\Unit;
 
-use Attestto\SolanaPhpSdk\Exceptions\GenericException;
-use Attestto\SolanaPhpSdk\Exceptions\InvalidIdResponseException;
-use Attestto\SolanaPhpSdk\Exceptions\MethodNotFoundException;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\Exceptions\GenericException;
+use Iroge\SolanaPhpSdk\Exceptions\InvalidIdResponseException;
+use Iroge\SolanaPhpSdk\Exceptions\MethodNotFoundException;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
 use GuzzleHttp\Exception\RequestException;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\MockObject\Exception;

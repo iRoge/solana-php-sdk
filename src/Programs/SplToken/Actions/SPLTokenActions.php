@@ -1,26 +1,26 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs\SplToken\Actions;
+namespace Iroge\SolanaPhpSdk\Programs\SplToken\Actions;
 
-use Attestto\SolanaPhpSdk\Connection;
-use Attestto\SolanaPhpSdk\Exceptions\AccountNotFoundException;
-use Attestto\SolanaPhpSdk\Exceptions\GenericException;
-use Attestto\SolanaPhpSdk\Exceptions\InputValidationException;
-use Attestto\SolanaPhpSdk\Exceptions\InvalidIdResponseException;
-use Attestto\SolanaPhpSdk\Exceptions\MethodNotFoundException;
-use Attestto\SolanaPhpSdk\Exceptions\TokenInvalidAccountOwnerError;
-use Attestto\SolanaPhpSdk\Exceptions\TokenInvalidMintError;
-use Attestto\SolanaPhpSdk\Exceptions\TokenOwnerOffCurveError;
-use Attestto\SolanaPhpSdk\Keypair;
-use Attestto\SolanaPhpSdk\Programs\SplToken\State\Account;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\Transaction;
-use Attestto\SolanaPhpSdk\Util\Commitment;
-use Attestto\SolanaPhpSdk\Util\ConfirmOptions;
-use Attestto\SolanaPhpSdk\Util\Signer;
+use Iroge\SolanaPhpSdk\Connection;
+use Iroge\SolanaPhpSdk\Exceptions\AccountNotFoundException;
+use Iroge\SolanaPhpSdk\Exceptions\GenericException;
+use Iroge\SolanaPhpSdk\Exceptions\InputValidationException;
+use Iroge\SolanaPhpSdk\Exceptions\InvalidIdResponseException;
+use Iroge\SolanaPhpSdk\Exceptions\MethodNotFoundException;
+use Iroge\SolanaPhpSdk\Exceptions\TokenInvalidAccountOwnerError;
+use Iroge\SolanaPhpSdk\Exceptions\TokenInvalidMintError;
+use Iroge\SolanaPhpSdk\Exceptions\TokenOwnerOffCurveError;
+use Iroge\SolanaPhpSdk\Keypair;
+use Iroge\SolanaPhpSdk\Programs\SplToken\State\Account;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\Transaction;
+use Iroge\SolanaPhpSdk\Util\Commitment;
+use Iroge\SolanaPhpSdk\Util\ConfirmOptions;
+use Iroge\SolanaPhpSdk\Util\Signer;
 use Exception;
 use Psr\Http\Client\ClientExceptionInterface;
-use function Attestto\SolanaPhpSdk\Programs\SplToken\getAccount;
+use function Iroge\SolanaPhpSdk\Programs\SplToken\getAccount;
 
 trait SPLTokenActions {
 

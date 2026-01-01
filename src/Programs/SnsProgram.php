@@ -1,15 +1,15 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Programs;
+namespace Iroge\SolanaPhpSdk\Programs;
 
 
-use Attestto\SolanaPhpSdk\Exceptions\InputValidationException;
-use Attestto\SolanaPhpSdk\Program;
-use Attestto\SolanaPhpSdk\Programs\SNS\Bindings;
-use Attestto\SolanaPhpSdk\Programs\SNS\Utils;
-use Attestto\SolanaPhpSdk\Programs\SNS\Instructions\Instructions;
-use Attestto\SolanaPhpSdk\PublicKey;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Exceptions\InputValidationException;
+use Iroge\SolanaPhpSdk\Program;
+use Iroge\SolanaPhpSdk\Programs\SNS\Bindings;
+use Iroge\SolanaPhpSdk\Programs\SNS\Utils;
+use Iroge\SolanaPhpSdk\Programs\SNS\Instructions\Instructions;
+use Iroge\SolanaPhpSdk\PublicKey;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
 
 
 

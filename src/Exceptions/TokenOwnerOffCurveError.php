@@ -1,6 +1,6 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Exceptions;
+namespace Iroge\SolanaPhpSdk\Exceptions;
 
 use Exception;
 class TokenOwnerOffCurveError extends Exception

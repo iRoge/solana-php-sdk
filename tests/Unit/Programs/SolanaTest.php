@@ -1,11 +1,11 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Tests\Unit\Programs;
+namespace Iroge\SolanaPhpSdk\Tests\Unit\Programs;
 
-use Attestto\SolanaPhpSdk\Exceptions\AccountNotFoundException;
-use Attestto\SolanaPhpSdk\Programs\SystemProgram;
-use Attestto\SolanaPhpSdk\SolanaRpcClient;
-use Attestto\SolanaPhpSdk\Tests\TestCase;
+use Iroge\SolanaPhpSdk\Exceptions\AccountNotFoundException;
+use Iroge\SolanaPhpSdk\Programs\SystemProgram;
+use Iroge\SolanaPhpSdk\SolanaRpcClient;
+use Iroge\SolanaPhpSdk\Tests\TestCase;
 use PHPUnit\Framework\Attributes\Test;
 
 

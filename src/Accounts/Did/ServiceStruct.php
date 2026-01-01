@@ -1,8 +1,8 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk\Accounts\Did;
+namespace Iroge\SolanaPhpSdk\Accounts\Did;
 
-use Attestto\SolanaPhpSdk\Borsh;
+use Iroge\SolanaPhpSdk\Borsh;
 
 /**
  * Class ServiceStruct
@@ -10,7 +10,7 @@ use Attestto\SolanaPhpSdk\Borsh;
  * This class represents a service for a Decentralized Identifier (DID) account.
  * It provides methods for creating and managing services, signing and verifying messages, and other related operations.
  * @version 1.0
- * @package Attestto\SolanaPhpSdk\Accounts\Did
+ * @package Iroge\SolanaPhpSdk\Accounts\Did
  * @license MIT
  * @author Eduardo Chongkan
  * @link https://chongkan.com

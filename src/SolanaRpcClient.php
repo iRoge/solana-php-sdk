@@ -1,6 +1,6 @@
 <?php
 
-namespace Attestto\SolanaPhpSdk;
+namespace Iroge\SolanaPhpSdk;
 
 use GuzzleHttp\Psr7\Message;
 
@@ -11,9 +11,9 @@ use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Psr7\HttpFactory;
 
 
-use Attestto\SolanaPhpSdk\Exceptions\GenericException;
-use Attestto\SolanaPhpSdk\Exceptions\InvalidIdResponseException;
-use Attestto\SolanaPhpSdk\Exceptions\MethodNotFoundException;
+use Iroge\SolanaPhpSdk\Exceptions\GenericException;
+use Iroge\SolanaPhpSdk\Exceptions\InvalidIdResponseException;
+use Iroge\SolanaPhpSdk\Exceptions\MethodNotFoundException;
 use Psr\Http\Message\StreamFactoryInterface;
 use Psr\Http\Message\UriFactoryInterface;
 use Random\RandomException;
