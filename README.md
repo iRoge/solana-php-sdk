@@ -13,9 +13,6 @@
 ```
 Simple PHP SDK for interacting with the Transactions, Signatures, Borsh Serialization/Deserialization and RPCs
 ---
-Forked from the Verze repo:  [verze-app/solana-php-sdk](https://github.com/verze-app/solana-php-sdk/pull/53)
-
----
 #### Motivations
 
 - To protect RPC API Keys acting as a Hosted Proxy. 
@@ -32,12 +29,12 @@ Forked from the Verze repo:  [verze-app/solana-php-sdk](https://github.com/verze
 You can install the package via composer :
 
 ```bash
-composer require attestto/solana-php-sdk
+composer require iroge/solana-php-sdk
 ```
 ### From this Repository
 
 ```bash
-git clone https://github.com/Attestto-com/solana-php-sdk.git
+git clone https://github.com/iroge/solana-php-sdk.git
 
 cd solana-php-sdk
 
@@ -46,8 +43,8 @@ composer install
 ```
 ### With Docker
 
-- [DockerFile](https://github.com/Attestto-com/solana-php-sdk/blob/master/Dockerfile) 
-- [compose-dev.yaml](https://github.com/Attestto-com/solana-php-sdk/blob/master/compose-dev.yaml)
+- [DockerFile](https://github.com/iroge/solana-php-sdk/blob/master/Dockerfile) 
+- [compose-dev.yaml](https://github.com/iroge/solana-php-sdk/blob/master/compose-dev.yaml)
 
 ```bash
 docker build -t solana-php-sdk .
@@ -193,9 +190,9 @@ example usage _**(This will be improved, WIP)**_:
 
 ## Roadmap (WIP)
 
-1. Borsh serialize and deserialize. [Done](https://github.com/Attestto-com/solana-php-sdk/tree/master/src/Borsh) - [Test(s)](https://github.com/Attestto-com/solana-php-sdk/blob/master/tests/Unit/BorshTest.php) - [Coverage](https://app.codecov.io/github/Attestto-com/solana-php-sdk/tree/master/src%2FBorsh)
-2. Improved documentation. [WIP](#) - This document + [Documentation Index](https://github.com/Attestto-com/solana-php-sdk/tree/master/docs) (https://github.com/Attestto-com/solana-php-sdk/tree/master/docs)
-3. Build out more of the Connection, Message, SystemProgram, TokenProgram, MetaplexProgram classes. [WIP](https://github.com/Attestto-com/solana-php-sdk/tree/master/src) - [Tests](https://github.com/Attestto-com/solana-php-sdk/tree/master/tests/Unit) - [Coverage](https://app.codecov.io/github/Attestto-com/solana-php-sdk/tree/master/src)
+1. Borsh serialize and deserialize. [Done](https://github.com/iroge/solana-php-sdk/tree/master/src/Borsh) - [Test(s)](https://github.com/iroge/solana-php-sdk/blob/master/tests/Unit/BorshTest.php) - [Coverage](https://app.codecov.io/github/iroge/solana-php-sdk/tree/master/src%2FBorsh)
+2. Improved documentation. [WIP](#) - This document + [Documentation Index](https://github.com/iroge/solana-php-sdk/tree/master/docs) (https://github.com/iroge/solana-php-sdk/tree/master/docs)
+3. Build out more of the Connection, Message, SystemProgram, TokenProgram, MetaplexProgram classes. [WIP](https://github.com/iroge/solana-php-sdk/tree/master/src) - [Tests](https://github.com/iroge/solana-php-sdk/tree/master/tests/Unit) - [Coverage](https://app.codecov.io/github/iroge/solana-php-sdk/tree/master/src)
    4. [ ] Connection::class
       5. [x] getLatestBlokchash::class [Source] - [Test] - [Coverage]
       6. [ ] getMinimumBalanceForRentExemption()
@@ -209,17 +206,17 @@ example usage _**(This will be improved, WIP)**_:
       12. [ ] createAssociatedTokenAccountInstruction()
       11. [ ] createSyncNativeInstruction() - [Test][Coverage]
       
-4. Improve abstractions around working with binary data. [Done?](https://github.com/Attestto-com/solana-php-sdk/tree/master/src/Borsh) - [Test(s)](https://github.com/Attestto-com/solana-php-sdk/blob/master/tests/Unit/BorshTest.php) - [Coverage](https://app.codecov.io/github/Attestto-com/solana-php-sdk/tree/master/src%2FBorsh)
+4. Improve abstractions around working with binary data. [Done?](https://github.com/iroge/solana-php-sdk/tree/master/src/Borsh) - [Test(s)](https://github.com/iroge/solana-php-sdk/blob/master/tests/Unit/BorshTest.php) - [Coverage](https://app.codecov.io/github/iroge/solana-php-sdk/tree/master/src%2FBorsh)
 5. Optimizations:
    1. Leverage PHP more.
    2. Better cache `$recentBlockhash` when sending transactions. 
-6. Suggestions? Open an [Issue](https://github.com/Attestto-com/solana-php-sdk/issues) or [Pull Request](https://github.com/Attestto-com/solana-php-sdk/pulls) :D
+6. Suggestions? Open an [Issue](https://github.com/iroge/solana-php-sdk/issues) or [Pull Request](https://github.com/iroge/solana-php-sdk/pulls) :D
 
 ## Testing & Code Coverage
 
-WIP -- Working on coverage and deprecations. See [Coverage Report](https://app.codecov.io/github/Attestto-com/solana-php-sdk).
+WIP -- Working on coverage and deprecations. See [Coverage Report](https://app.codecov.io/github/iroge/solana-php-sdk).
 
-- Configuration [phpunit.xml](https://github.com/Attestto-com/solana-php-sdk/blob/master/phpUnit.xml)
+- Configuration [phpunit.xml](https://github.com/iroge/solana-php-sdk/blob/master/phpUnit.xml)
 - composer.json
 ```json
    "scripts": {
@@ -227,8 +224,8 @@ WIP -- Working on coverage and deprecations. See [Coverage Report](https://app.c
         "format": "vendor/bin/php-cs-fixer fix --allow-risk=yes"
     },
 ```
-[![GitHub Tests Action Status](https://github.com/Attestto-com/solana-php-sdk/actions/workflows/run-tests.yml/badge.svg?branch=master)](https://github.com/Attestto-com/solana-php-sdk/actions/workflows/run-tests.yml)
-[![Coverage (CodeCov)](https://codecov.io/github/Attestto-com/solana-php-sdk/graph/badge.svg?token=M12LECZ9QE)](https://codecov.io/github/Attestto-com/solana-php-sdk)
+[![GitHub Tests Action Status](https://github.com/iroge/solana-php-sdk/actions/workflows/run-tests.yml/badge.svg?branch=master)](https://github.com/iroge/solana-php-sdk/actions/workflows/run-tests.yml)
+[![Coverage (CodeCov)](https://codecov.io/github/iroge/solana-php-sdk/graph/badge.svg?token=M12LECZ9QE)](https://codecov.io/github/iroge/solana-php-sdk)
 
 
 ```bash
@@ -240,22 +237,6 @@ OR
 /verdor/bin/phpunit tests [options]
 ```
 
-## Contributing - Yes Please! :-P
-
-- Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-- I will change my profile pic once we get a 2nd mantainer onboard :-)
-
-
-## Security
-
-If you discover any security related issues, please email the maintainers (see composer.json) instead of using the issue tracker.
-
-## Credits
-
-- [Matt Stauffer](https://github.com/mattstauffer) (Original creator)
-- [Zach Vander Velden](https://github.com/exzachlyvv) (Metadata wizard)
-- [Neverything](https://github.com/verze-app/solana-php-sdk/graphs/contributors) (Previous Maintainer)
-- [All Contributors](../../contributors)
   
 ## License
 
